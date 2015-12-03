@@ -1,0 +1,60 @@
+﻿.container {
+    width: 100%;
+}
+.container .background {
+    width: 100%;
+}
+.container .button {
+    display: block;
+    position: relative;
+    width: 40%;
+    margin-top: -50%;
+    margin-left: 30%;
+    animation:vertical-shake 0.2s infinite;
+    -moz-animation:vertical-shake 0.2s infinite; /* Firefox */
+    -webkit-animation:vertical-shake 0.2s infinite; /* Safari and Chrome */
+    -o-animation:vertical-shake 0.2s infinite;
+}
+.container .button img {
+    width: 100%;
+}
+@keyframes vertical-shake
+{
+from {margin-top: -55%;}
+to {margin-top: -54%;}
+}
+
+@-moz-keyframes vertical-shake /* Firefox */
+{
+from {margin-top: -55%;}
+to {margin-top: -54%;}
+}
+
+@-webkit-keyframes vertical-shake /* Safari and Chrome */
+{
+from {margin-top: -55%;}
+to {margin-top: -54%;}
+}
+
+@-o-keyframes vertical-shake /* Opera */
+{
+from {margin-top: -55%;}
+to {margin-top: -54%;}
+}
+
+ul li {
+	list-style:none;
+}
+.enai_list {
+	position:absolute; margin-top:-115%;
+}
+.enai_list ul {
+	width:100%;
+}
+.enai_list ul li {
+	 width:25%;
+    float: left;
+}
+.enai_list ul li img {
+	width:100%;
+}

@@ -1,0 +1,107 @@
+body{
+	font-size: 15px; padding:0px;
+	margin:0px; font-family:microsoft yahei;
+	color:#666; background-color:#fff;
+}
+img{border:0px;}
+
+ul,li,p,h1,h2,h3,h4{ margin:0px; padding:0px; margin:0;padding:0;border:0;outline:0;font-style:normal; font-weight:lighter; list-style-type:none;}
+a{ color:#666; text-decoration:none; -webkit-transition: all 0.2s;}
+a:hover{ color:#666; text-decoration: none; -webkit-transition: all 0.2s; }
+*{ padding:0; margin:0; border:none;}
+
+.top{ height: 450px; overflow:hidden; position:relative; background-color:#00CCFF;}
+.top .top_bg{ width:100%; height:100%; margin-top:-20%; } 
+.top .top_bg img{ width:100%;}
+.top_ct{ position:absolute; width:100%; text-align:center; left:0px; bottom:30px;}
+.top_ct .header{ width: 166px;  margin:0 auto; padding-bottom:10px;}
+.top_ct .header span{ width:160px; height:160px; display: inline-block; padding:5px; background-color:#fff; overflow:hidden;border-radius: 165px;background:rgba(255, 255, 255, 0.80) none repeat scroll 0 0 !important;filter:Alpha(opacity=80);}
+.top_ct .header span img{ width:100%; height:100%;border-radius: 165px;}
+ .naem{ padding:10px; clear:both; position:relative;  display:inline-block; padding-right:70px; padding-bottom:5px; }
+ .fm_left{ font-size:30px; color:#fff;  }
+ .fm_w{ display:inline-block; position:absolute; right:0px; top:17px; background-color:#f6a8ff; padding:3px;color:#fff;padding-left:8px; padding-right:8px; font-size:18px;  border-radius: 25px;}
+ .fm_w img{ width:12px; margin-right:5px; float:left; margin-top:3px;}
+ .xiaozi{ font-size:15px; color:#fff; line-height:25px;}
+ .cc{ max-width:800px; margin:0 auto; padding:20px; overflow:hidden; padding-bottom:30px;} 
+  .cc_tt{ line-height:25px; font-size:15px; color:#666; margin-bottom:20px;}
+  .cc_tu{ width:100%; overflow:hidden;}
+  .cc_tu ul{ width:105%;}
+  .cc_tu ul li{ width:30%;  margin-bottom:3%; margin-right:3%; overflow:hidden; float:left;}
+   .cc_tu ul li img{ width:100%;}
+   .cc_laction{ font-size:15px; color:#aaa;}
+   .cc_laction img { float:left; margin-right:10px; width:10px;}
+   
+.xz{ max-width:800px; overflow:hidden; margin:0 auto; text-align:center; position:relative;}
+.xz img{ width:100%;}
+.xz span { position:absolute;bottom:10%; text-align:center; display:inline-block; left:0px; width:100%;}
+.xz span a{  font-size:28px; line-height:30px; height:30px; color:#fff; padding:20px; padding-left:40px; padding-right:40px; display:inline-block; position: relative;border-radius: 165px; background-color:#ff6158;}
+
+.xiazai{ background-color:#000; height:60px; position:fixed; left:0px; top:0px; width:100%;  background:rgba(0, 0, 0, 0.60) none repeat scroll 0 0 !important;
+filter:Alpha(opacity=60); }
+.xiazai_l{ height:50px; width:50px; padding-top:5px; padding-left:10px; padding-right:10px; padding-bottom:5px; float:left;}
+.xiazai_l img{ width:100%;}
+.xiazai_c{ float:left; font-size:15px; color:#ccc; padding-top:5px;}
+.xiazai_c h1{ font-size:21px; color:#fff;}
+.xiazai_r{ float: right; padding-right:10px; padding-top:10px;}
+.xiazai_r a{ width:80px; height:40px; background-color:#fff; color:#333; line-height:40px;  text-align:center; font-size:17px; display:inline-block;border-radius: 3px;} 
+
+@media screen and (max-width: 1200px) {
+
+.top .top_bg{ width:100%; height:100%; margin-top:0; } 
+}
+
+@media screen and (max-width: 700px) {
+
+.top{ height: 350px;}
+.top_ct .header,.top_ct .header span{ width: 120px; height:120px;}
+
+.cc{ width:80%;}
+}
+
+@media screen and (max-width: 540px) {
+
+.top{ height: 300px;}
+.top_ct .header,.top_ct .header span{ width: 80px; height:80px;}
+ .fm_left{ font-size:25px; color:#fff;  }
+ .fm_w{ font-size:14px; top:15px;}
+ .fm_w img{ width:9px;}
+ .naem{ padding-right:60px;}
+ .cc_tt{ margin-bottom:10px;}
+  .naem{ margin-bottom:-5px;}
+ .xz span  a{ font-size:23px; line-height:28px; height:28px; padding:18px; padding-left:32px; padding-right:30px; }
+}
+@media screen and (max-width: 480px) {
+
+.top .top_bg img{ width:130%;}
+.xiazai{height:50px;}
+.xiazai_l{ width:40px; height:40px;}
+.xiazai_c{ font-size:12px;}
+.xiazai_c h1{ font-size:16px;}
+.xiazai_r a{ width:55px; height:30px; line-height:30px; font-size:15px;}
+
+ .xz span { bottom:7%;}
+ .xz span  a{ font-size:20px; line-height:27px; height:27px; padding:12px; padding-left:28px; padding-right:28px; }
+ .fm_left{ font-size:22px; color:#fff;  }
+  .fm_w{ font-size:14px; top:12px;}
+  .top_ct .header span{padding:4px;}
+  .top .top_bg{ margin-left:-20%; margin-top:0px; }
+}
+@media screen and (max-width: 370px) {
+
+.top .top_bg img{ width:auto; height:100%;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
